@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+/* hedder section style */
+main .hedder{
+    height: 85vh;
+    width: 100%;
+    background-image: url("../images/joshua-earle-EqztQX9btrE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.nber{
+    /* position: fixed;  */
+    height: 10vh;
+    width: 100%;
+    z-index: 7;
+}
+.tecon{
+    /* margin-top:10px ; */
+    height: 75vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.265);
+    /* backdrop-filter: blur(3px);  */
+   
+    justify-content: center;
+    align-items: center;
+   
+}
+.texc{
+    height: 30vh;
+    width: 50%;
+    /* background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px); 
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px; */
+}
+.textc{
+    height: 15vh;
+    width: 100%;
+    /* background-color: white; */
+    justify-content: center;
+    align-items: center;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.seary{
+    height: 15vh;
+    width: 100%;
+    /* background-color: rgb(183, 200, 26); */
+    justify-content: center;
+    align-items: center;
+}
+input[type=search]:focus{
+    box-shadow: none!important;
+}
+/* body section style */
+main .body{
+    
+    width: 100%;
+    /* background-color: aqua; */
+}
+.hil{
+    width: 100%;
+    /* background-color: beige; */
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+}
+.servis{
+    justify-content: center;
+    align-items: center;
+}
+
+/* image hover */
+.im1 {
+    overflow: hidden;
+  }
+  .im1 img{
+    transition: transform .5s ease;
+
+  }
+  .im1:hover img{
+    transform: scale(1.1);
+  
+  }
+  
+/* footer section */
+main .footer{
+    width: 100%;
+    /* background-color:  rgb(255, 255, 255); */
+    color: black;
+}
+
+
+
