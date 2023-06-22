@@ -24,7 +24,7 @@ main .hedder{
 }
 .tecon{
     /* margin-top:10px ; */
-    height: 85vh;
+    height: 100vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.265);
     /* backdrop-filter: blur(3px);  */
